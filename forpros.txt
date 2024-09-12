@@ -1,0 +1,15 @@
+Step 1:
+http://www.strava.com/oauth/authorize?client_id=[INSERT_CLIENT_ID_HERE]&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=activity:read_all
+
+Most recent code: PASTEINCODEAFTERYOUAREDONE
+
+Go on postman
+
+Use POST command
+Step 2:
+https://www.strava.com/oauth/token?client_id=INSERTCLIENTIDHERE&client_secret=INSERTCLIENTSECRETHERE&code=INSERTCODEHERE&grant_type=authorization_code
+
+
+Use GET command
+Step 3:
+https://www.strava.com/api/v3/athlete/activities?access_token=INSERTACCESSTOKENHERE
