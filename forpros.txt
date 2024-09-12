@@ -3,7 +3,7 @@ https://github.com/cubeow/Strava-API-Steps/wiki
 
 Copy and paste this code into a text file or google doc or whatever text editor you wanna use
 Step 1:
-http://www.strava.com/oauth/authorize?client_id=[INSERT_CLIENT_ID_HERE]&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=activity:read_all
+http://www.strava.com/oauth/authorize?client_id=INSERT_CLIENT_ID_HERE&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=activity:read_all
 
 Most recent code: PASTEINCODEAFTERYOUAREDONE
 
